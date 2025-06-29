@@ -2,7 +2,7 @@
 
 This guide walks you through setting up a development workstation from scratch to run Arduino PLC projects using the **Arduino Opta** platform.
 
----
+---cx
 
 ## 📦 Prerequisites
 
