@@ -74,7 +74,7 @@ Make sure the following are installed and configured before proceeding:
 
    * Copy the contents of this file
 
-   * Send the public key file as an attachment to `rbjengineeringservices.llc@gmail.com` email account, with subject "Pioner GITHUB PUBLIC KEY - <Workstation_ID>".
+   * Send the public key file as an attachment to `rbjengineeringservices.llc@gmail.com` email account, with subject "Pioneer GITHUB PUBLIC KEY - <Workstation_ID>".
 
 3. **Verify Connection:**
 
