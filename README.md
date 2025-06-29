@@ -10,8 +10,9 @@ Make sure the following are installed and configured before proceeding:
 
 - [Git](https://git-scm.com/downloads) (added to system `PATH`)
 - [Arduino PLC IDE](https://www.arduino.cc/en/software#plc-ide) installed and configured
-- [Arduino Opta license activated](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/) (including expansion if needed)
 - If expansion is needed, install [Arduino ide](https://www.arduino.cc/en/software/#plc-ide)
+- [Arduino Opta license activated](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/)
+- If expansion is needed, [expansion pack firmware_update](https://docs.arduino.cc/tutorials/opta/user-manual/#update-expansion-firmware)
 - SSH key (without passphrase) added to GitHub for repository access
 
 ---
@@ -24,6 +25,8 @@ Make sure the following are installed and configured before proceeding:
 
 2. **Verify Git Installation:**
 
+   Open Git Bash and run:
+   
    ```bash
    git --version
    ```
@@ -48,7 +51,7 @@ Make sure the following are installed and configured before proceeding:
 
 * Ensure your Arduino Opta is connected and recognized by the IDE.
 * Activate your [Opta license](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#instructions) 
-* Optional: as well as any [expansion pack licenses](https://docs.arduino.cc/tutorials/opta/user-manual/#update-expansion-firmware) required by your hardware setup.
+* Optional: as well as any [expansion pack licenses](https://docs.arduino.cc/tutorials/opta/user-manual/#update-expansion-firmware) required by your hardware/project setup.
 * Test device communication through the IDE **before using automated scripts or tools**.
 
 ---
@@ -75,6 +78,8 @@ Make sure the following are installed and configured before proceeding:
 
 3. **Verify Connection:**
 
+   Open Git Bash and run:
+
    ```bash
    ssh -T git@github.com
    ```
@@ -89,9 +94,12 @@ Make sure the following are installed and configured before proceeding:
 
 ## 🚀 Cloning & Running the Arduino PLC Project
 
-### 1. Clone the Project Repository
+### 1. Clone the Project Repository into your local software repository directory
+
+Open Git Bash and run:
 
 ```bash
+cd Software_repos
 git clone git@github.com:one-repo-to-rule-them-all/blinkingLED.git
 cd blinkingLED
 ```
@@ -110,6 +118,8 @@ dir
 ## 🔼 Uploading the PLC Project
 
 Once the `.plcprj` file is verified, you can use either the **Arduino PLC IDE** or a custom automation script to upload the project to your Arduino Opta.
+
+* [Uploading Project](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#2-project-setup) 
 
 If using automation:
 
